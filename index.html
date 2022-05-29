@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <title>twitter</title>
+  </head>
+
+  <body>
+    <aside>
+      <div class="icon">
+        <ul>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li>
+            <i class="fa-solid fa-house"></i> <button class="btn">Home</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-hashtag"></i>
+            <button class="btn">Explore</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-bell"></i>
+            <button class="btn">Notification</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <button class="btn">Messages</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-bookmark"></i>
+            <button class="btn">Bookmarks</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-list"></i> <button class="btn">Lists</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-user"></i>
+            <button class="btn">Profile</button>
+          </li>
+          <li>
+            <i class="fa-solid fa-angles-right"></i>
+            <button class="btn">More</button>
+          </li>
+        </ul>
+        <div><button class="btn tweet">tweet</button></div>
+
+        <div class="main">
+          <div>
+            <img src="images/usama2.jpg" alt="usama" />
+            <p class="user">Usama Rabie</p>
+            <p class="usr">@Usama_Rabie</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="post">
+        <h1>Home</h1>
+        <i class="fa-solid fa-star"></i>
+        <div class="new">
+          <img class="img usama" src="images/usama2.jpg" alt="usama"  />
+          <!--Post Form--->
+<form method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+             <input name="text" cols="40" rows="3" placeholder="What&#39;s Happening.." required="" id="id_text">
+
+    <label for="id_img"></label>
+    
+      
+      <input type="file" name="img" accept="image/*" id="id_img">
+
+     
+            <button type="submit">Post</button>
+          </form>
+<!--Comment Form-->
+<form method="POST" enctype="multipart/form-data">
+   <img class="img usama" src="images/usama2.jpg" alt="usama"  />
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+          
+   
+        </form>
+        </div>
+      </div>
+       <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+
+        <a href="#">
+          <p class="user new-post">
+            Usama Rabie <span class="email">@Usama_Rabie</span>
+          </p>
+        </a>
+        <li class="show">
+          <a class="dropdown" href="#">
+            options
+            <i class="fa-solid fa-angle-down"> </i>
+          </a>
+          <ul class="parent-link">
+            <a class="option" href="#"> unfollow </a>
+
+            <a class="option" href="#"> delete </a>
+          </ul>
+        </li>
+        <p class="myposts">
+          This is my first post in this website I think that it will be a good
+          website
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+        <div class="comment">
+          <img
+            class="img-comment img-comment2"
+            src="images/usama2.jpg"
+            alt="usama"
+          />
+          <a href="#">
+            <p class="user-comment new-post">
+              Usama Rabie <span class="email">@Usama_Rabie</span>
+            </p>
+          </a>
+          <p class="mycomment">
+            <time datetime="2018-07-07">July 7</time>
+            i can comment on any tweet right now
+          </p>
+        </div>
+
+        <form method="POST" enctype="multipart/form-data" id="post">
+          <input
+            type="hidden"
+            name="csrfmiddlewaretoken"
+            value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1"
+          />
+          <img class="img-comment" src="images/usama2.jpg" alt="usama" />
+          <input
+            name="text"
+            cols="40"
+            rows="1"
+            placeholder="Comment on this.."
+            required=""
+            id="id_text"
+          />
+          <button type="submit">Post</button>
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts">
+          Iam Usama Rabie and this is the second project i have ever design
+          using only HTML & CSS
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+
+
+
+
+
+
+
+        <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts">
+         Iam trying to share a post with photo
+        </p>
+        <img class="img-post" src="images/cat.jpg" alt="posg image">
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts" dir="rtl">
+          منشور باللغة العربية و جامد برضو عشان انا مبرمج جامد كده كده و موقعي
+          بيشتغل باللغتين عادي ولا بيهمنا !!!!!!!!
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts" dir="rtl">
+          <a href="#">#فلسطين_قضيتنا</a>
+          حتى لا ننسى .. فلسطين حرة أبية
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts">
+          I am software Engineer , Mobile devolper and web devolper Iam
+          searching for a job part time becouse I am student .
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts">
+          My skills ars C++ , OOP , Data Structure and Algorithms , HTML , CSS ,
+          Problem solving , SQL , linux and some rebotics and hardware skills
+          not only these skills .. Iam student and I will learn more and more
+          till gradution
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts">
+          I am mentor in ICPC student activity and I trained students in Problem
+          solving . I made a Line follower robot while I was in IEEE Technical
+          team
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+         <div class="comment">
+        <img class="img-comment img-comment2" src="images/usama2.jpg" alt="usama"  />
+          <p class="mycomment">
+          i can comment on any tweet right now 
+        </p>
+        </div>
+         <form method="POST" enctype="multipart/form-data" id="post">
+
+          <input type="hidden" name="csrfmiddlewaretoken" value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1">
+            <img class="img-comment" src="images/usama2.jpg" alt="usama"  />
+      <input name="text" cols="40" rows="1" placeholder="Comment on this.." required="" id="id_text">
+          <button type="submit">Post</button>
+       
+        </form>
+      </div>
+
+      
+      </div>
+    </main>
+
+    <aside>
+     <div class="left">
+        <input type="search" class="search" placeholder="sharch">
+      </div>
+      <div class="news">
+        <h1 class="what-happening">
+          what-happening
+        </h1>
+        <h1 class="tending">
+          trending in Egypt
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+         <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+        <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+        <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+        <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+        <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+         <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+         <h1 class="tending">
+          <h3 class="trends">
+            Usama_Rabie
+          </h3>
+          <h4 class="tending">
+            1M tweet
+          </h4>
+        </h1>
+      </div>
+
+      <div class="follow">
+        <h1 class="txt">Who to follow</h1>
+
+        <div class="suggest">
+            <img src="images/usama2.jpg" alt="usama" class="suggest"/>
+            <p >Usama Rabie</p>
+            <p class="zz">@Usama_Rabie</p>
+             <button class="follow-button">follow</button>
+          </div>
+
+          <div class="suggest">
+            <img src="images/usama2.jpg" alt="usama" class="suggest"/>
+            <p >Usama Rabie</p>
+            <p class="zz">@Usama_Rabie</p>
+             <button class="follow-button">follow</button>
+          </div>
+
+          <div class="suggest">
+            <img src="images/usama2.jpg" alt="usama" class="suggest"/>
+            <p >Usama Rabie</p>
+            <p class="zz">@Usama_Rabie</p>
+
+            <button class="follow-button">follow</button>
+          </div>
+      </div>
+    </aside>
+  </body>
+</html>

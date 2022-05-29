@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <title>twitter</title>
+  </head>
+
+  <body>
+    <aside></aside>
+
+    <main>
+      <!--Comment Form-->
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+
+        <a href="#">
+          <p class="user new-post">
+            Usama Rabie <span class="email">@Usama_Rabie</span>
+          </p>
+        </a>
+        <li class="show">
+          <a class="dropdown" href="#">
+            <i class="fa-solid fa-angle-down"> </i>
+          </a>
+          <ul class="parent-link">
+            <a class="option" href="#"> unfollow </a>
+          </ul>
+        </li>
+        <p class="myposts">
+          This is my first post in this website I think that it will be a good
+          website
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+        <div class="comment">
+          <img
+            class="img-comment img-comment2"
+            src="images/usama2.jpg"
+            alt="usama"
+          />
+          <a href="#">
+            <p class="user-comment new-post">
+              Usama Rabie <span class="email">@Usama_Rabie</span>
+            </p>
+          </a>
+          <p class="mycomment">
+            <time datetime="2018-07-07">July 7</time>
+            i can comment on any tweet right now
+          </p>
+        </div>
+
+        <form method="POST" enctype="multipart/form-data" id="post">
+          <input
+            type="hidden"
+            name="csrfmiddlewaretoken"
+            value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1"
+          />
+          <img class="img-comment" src="images/usama2.jpg" alt="usama" />
+          <input
+            name="text"
+            cols="40"
+            rows="1"
+            placeholder="Comment on this.."
+            required=""
+            id="id_text"
+          />
+          <button type="submit">Post</button>
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/usama2.jpg" alt="usama" />
+
+        <a href="#">
+          <p class="user new-post">
+            Usama Rabie <span class="email">@Usama_Rabie</span>
+          </p>
+        </a>
+        <li class="show">
+          <a class="dropdown" href="#">
+            <i class="fa-solid fa-angle-down"> </i>
+          </a>
+          <ul class="parent-link">
+            <a class="option" href="#"> delete </a>
+          </ul>
+        </li>
+        <p class="myposts">
+          This is my second post in this website I think that it will be a good
+          website
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+        <div class="comment">
+          <img
+            class="img-comment img-comment2"
+            src="images/usama2.jpg"
+            alt="usama"
+          />
+          <a href="#">
+            <p class="user-comment new-post">
+              Usama Rabie <span class="email">@Usama_Rabie</span>
+            </p>
+          </a>
+          <p class="mycomment">
+            <time datetime="2018-07-07">July 7</time>
+            i can comment on any tweet right now
+          </p>
+        </div>
+
+        <form method="POST" enctype="multipart/form-data" id="post">
+          <input
+            type="hidden"
+            name="csrfmiddlewaretoken"
+            value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1"
+          />
+          <img class="img-comment" src="images/usama2.jpg" alt="usama" />
+          <input
+            name="text"
+            cols="40"
+            rows="1"
+            placeholder="Comment on this.."
+            required=""
+            id="id_text"
+          />
+          <button type="submit">Post</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

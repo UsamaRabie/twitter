@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>profile</title>
+  </head>
+  <body>
+    <aside class="left-side"></aside>
+    <main>
+      <img class="cover" src="images/cover.png" alt="cover photo" />
+      <div class="user-action">
+        <img class="profile" src="images/profile.jfif" alt="profile picture" />
+
+        <h1>UserName</h1>
+        <div class="buttons">
+          <button class="follow">follow</button>
+          <button class="unfollow">unfollow</button>
+          <button class="block">block</button>
+        </div>
+      </div>
+      <div class="tweets">
+        <img class="img" src="images/profile.jfif" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts" dir="rtl">
+          <a href="#">#فلسطين_قضيتنا</a>
+          حتى لا ننسى .. فلسطين حرة أبية
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+        <form method="POST" enctype="multipart/form-data" id="post">
+          <input
+            type="hidden"
+            name="csrfmiddlewaretoken"
+            value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1"
+          />
+          <img class="img-comment" src="images/profile.jfif" alt="usama" />
+          <input
+            name="text"
+            cols="40"
+            rows="1"
+            placeholder="Comment on this.."
+            required=""
+            id="id_text"
+          />
+          <button class="post-comment" type="submit">Post</button>
+        </form>
+      </div>
+
+      <div class="tweets">
+        <img class="img" src="images/profile.jfif" alt="usama" />
+        <p class="user new-post">
+          Usama Rabie <span class="email">@Usama_Rabie</span>
+        </p>
+        <p class="myposts" dir="rtl">
+          I am software Engineer , Mobile devolper and web devolper Iam
+          searching for a job part time becouse I am student .
+        </p>
+        <div class="react">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-comment"></i>
+          <i class="fa-solid fa-share"></i>
+          <i class="fa-solid fa-up-long"></i>
+        </div>
+        <form method="POST" enctype="multipart/form-data" id="post">
+          <input
+            type="hidden"
+            name="csrfmiddlewaretoken"
+            value="mfmYEiqtqKSvjgqujLb2n8NHmxs2dN5CoSs8RTuI3zoa9DgPQXtQlr725XNolJE1"
+          />
+          <img class="img-comment" src="images/profile.jfif" alt="usama" />
+          <input
+            name="text"
+            cols="40"
+            rows="1"
+            placeholder="Comment on this.."
+            required=""
+            id="id_text"
+          />
+          <button class="post-comment" type="submit">Post</button>
+        </form>
+      </div>
+    </main>
+
+    <aside class="right-side"></aside>
+  </body>
+</html>

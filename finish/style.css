@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+#post{
+  display: flex;
+  margin-bottom: 20px;
+}
+#post #id_text{
+  margin: 0px;
+  border: 0px;
+  width: 80%;
+  height: 30px;
+}
+#post button{
+  width: 50px;
+  height: 20px;
+}
+
+
+
+
+.img-comment
+{
+      height: 17%;
+      width: 4%;
+      margin: 0;
+      margin-right: 10px;
+}
+
+.icon {
+      margin-top: 3%;
+      color: white;
+      height: 70%;
+      margin-left: 5%;
+      font-size: 25px;
+      position: fixed;
+}
+.main {
+  color: white;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-bottom: solid 5px rgb(182, 199, 182);
+  margin-top: 5px;
+}
+.fa-solid,
+.fa-brands {
+  margin-top: 10px;
+  height: 40px;
+}
+
+img {
+      width: 50px;
+      border-radius: 50%;
+      margin-top: 100px;
+      margin-left: 10px;
+      }
+
+
+.btn {
+  background-color: black;
+  color: white;
+  width: 61%;
+}
+.btn:hover {
+  background-color: gray;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.tweet {
+  height: 40px;
+  background-color: rgb(57, 57, 223);
+  border-radius: 60%;
+  margin-left: 30px;
+    width: 60%;
+  text-align: center;
+  justify-content: center;
+}
+button{
+  height: 40px;
+  background-color: rgb(57, 57, 223);
+  border-radius: 10%;
+  margin-left: 10px;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+      margin-bottom: 10px;
+}
+.tweet:hover {
+  background-color: rgb(54, 20, 206);
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10%;
+}
+button:hover{
+  background-color: rgb(54, 20, 206);
+  cursor: pointer;
+}
+.user {
+  position: relative !important;
+  bottom: 60px !important;
+  left: 60px !important;
+}
+
+.usr {
+  position: relative !important;
+  bottom: 50px !important;
+  left: 60px !important;
+
+  color: gray;
+  font-size: 12px;
+}
+.fa-ellipsis {
+  margin-left: 20px;
+}
+.img {
+  margin: 0;
+}
+
+  
+  input {
+    background-color: black;
+    /* width: 150%; */
+    border: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 80px;
+    height: 52px;
+    width: 250%;
+}
+
+.post div {
+  display: flex;
+
+  position: relative;
+  bottom: 30%;
+}
+.fa-star {
+  position: relative;
+  bottom: 30%;
+  left: 95%;
+}
+
+.tweets {
+  color: white;
+  border-bottom: 3px gray solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email {
+  color: gray;
+}
+
+.myposts {
+  position: relative;
+  bottom: 10%;
+}
+.mycomment {
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+.img-comment2 {
+  margin-right: 1%;
+  margin-top: 1%;
+
+}
+
+.comment {
+  border-top: solid rgb(238, 232, 232) 2px;
+  margin-bottom: 1%;
+}
+a {
+  color: cornflowerblue;
+}
+
+.fa-comment {
+  margin-left: 20%;
+}
+
+.fa-share {
+  margin-left: 20%;
+}
+
+.fa-up-long {
+  margin-left: 20%;
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+.left {
+  width: 100%;
+}
+
+.search {
+  width: 80%;
+  height: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  background-color: rgb(51, 49, 49);
+}
+.news {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+
+  background-color: rgb(51, 49, 49);
+}
+.what-happening {
+  color: white;
+  text-align: center;
+  border-top: 20px black solid;
+  margin-bottom: 20px;
+}
+
+.tending {
+  color: gray;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.trends {
+  margin-left: 20px;
+  color: white;
+}
+
+.follow {
+  color: white;
+  margin-left: 9%;
+  margin-right: 9%;
+  border-radius: 10px;
+  background-color: rgb(51, 49, 49);
+  border-top: 20px black solid;
+}
+#id_img{
+      display: block;
+      height: 30px;
+      margin-top: 10px;
+      
+}
+.txt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+.suggest {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.follow-button {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(98, 98, 228);
+  margin-right: 20px;
+}
+
+.follow-button:hover {
+  background-color: rgb(66, 66, 75);
+  cursor: pointer;
+}
+
+
+
+
+
+.zz {
+  color: gray;
+  position: relative;
+  right: 25%;
+  top: 25px;
+}
+
+
+
+.usama{
+      height: 17%;
+      width: 3%;
+      margin-top: 10%;
+ }
+img:hover{
+  cursor: pointer;
+}
+
+
+.img-post{
+  border-radius: 0px;
+  width: 90%;
+  
+  margin-right: 5%;
+  margin-top: 0px;
+}
+
+.mycomment{
+  display: inline-block;
+  margin-bottom: 2%;
+  position: relative;
+  bottom: 10px;
+  left: 1%;
+}
+.img-comment2{
+  margin-right: 1%;
+  margin-top: 1%;
+  
+}
+.user-comment{
+    position: relative;
+    bottom: 45px ;
+    left: 5%;
+}
+.comment{
+  border-bottom: solid rgb(238, 232, 232) 2px;
+  margin-bottom: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 6, 243);
+}
+
+a:hover {
+  color: rgb(145, 145, 224);
+
+}
+
+a:link {
+
+  color: rgb(145, 145, 224);
+}
+
+a:visited {
+  color: rgb(145, 145, 224);
+}
+
+
+.dropdown:hover {
+  color: white;
+  background-color: gray;
+}
+
+.parent-link {
+  background-color: black;
+  color: white;
+  right: 10%;
+  bottom: -30%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+}
+
+.show:hover .parent-link {
+  visibility: visible;
+  text-decoration: none;
+}
+
+.show {
+  display: inline-block;
+  margin-left: 90%;
+
+  position: relative;
+  bottom: 22%;
+}
+
+.option {
+  border-bottom: 3px solid gray;
+  font-size: 20px;
+}
+
+.option:hover {
+  background-color: rgb(211, 202, 219);
+}
